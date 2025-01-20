@@ -1,27 +1,32 @@
 body {
-    background-color: rgb(13, 104, 194);
+    background-color: white;
 }
 
 #website {
     max-width: 1000px;
     margin: 0 auto;
+    font-family: Arial;
 }
 
 #header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    background-color: black;
+    background-color: #ddd;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .logo {
-    color: red;
-    border:1px solid darkcyan;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
 }
+
 
 .menu {
     text-align: right;
-    border:1px solid gold;
 }
 
 .menu li {
@@ -29,11 +34,11 @@ body {
     padding: 5px;
 }
 
-.menu li{
-    color:azure;
+.menu li a {
+    color: black;
+    text-decoration: none;
 }
 
-.menu li a{
-    color:blueviolet;
-    text-decoration: none;
+.baner {
+    background-color: red;
 }
